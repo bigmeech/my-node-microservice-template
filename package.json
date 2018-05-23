@@ -1,0 +1,39 @@
+{
+  "name": "my-node-microservice-template",
+  "version": "0.1.0",
+  "description": "A simple biolerplate project for node microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "lint": "standard .",
+    "lint-fix": "standard . --fix",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bigmeech/my-node-microservice-template.git"
+  },
+  "author": "Larry Eliemenye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bigmeech/my-node-microservice-template/issues"
+  },
+  "homepage": "https://github.com/bigmeech/my-node-microservice-template#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "joi": "^13.3.0",
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-helmet": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.1.2"
+  },
+  "devDependencies": {
+    "debug": "^3.1.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-security": "^1.4.0",
+    "standard": "^11.0.1"
+  },
+  "keywords": []
+}
