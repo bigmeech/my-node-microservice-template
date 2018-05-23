@@ -5,8 +5,15 @@ module.exports = function devConfiguration () {
         },
         middlewares: {
             "koa-bodyparser": {},
-            "koa-helmet": {},
-            "./request-primer": {}
+            "koa-helmet": {
+                frameguard: {
+                    action: 'deny'
+                },
+                hidePoweredBy: {
+                    setTo: 'DONALD TRUMP'
+                }
+            },
+            "./you-can-delete-me": {}
         }
     }
 };
