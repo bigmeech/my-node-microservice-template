@@ -27,5 +27,5 @@ module.exports = function configure(app) {
         }
     });
 
-    return (req, res, next) => next();
+    return (ctx, next) => next();
 };
