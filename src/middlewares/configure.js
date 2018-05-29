@@ -8,8 +8,14 @@ const debug = require('debug')('service:middleware-config');
  * fit using a declaratively style
  *
  * middleware can either composed of npm packages or ones specified in the middleware folder.
- * middlewares are loaded in the order in which they are specified in the file. You will be
- * recognise with this way of loading middlewares if you are familiar loopback
+ * middlewares are loaded in the order in which they are specified in the file. You will
+ * recognise with this way of loading middlewares if you are familiar with the loopback framework
+ *
+ * The only caveat is it can only load middleware definitions that follow the below convention
+ *
+ * function middleware(options) {
+ *      return (ctx, next) => next()
+ * }
  *
  * @param app
  */
