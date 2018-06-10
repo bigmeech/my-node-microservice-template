@@ -13,7 +13,7 @@ module.exports = function devConfiguration () {
                     setTo: 'DONALD TRUMP'
                 }
             },
-            "pino-logger": {},
+            "koa-pino-logger": {},
             "./you-can-delete-me": {}
         }
     }
