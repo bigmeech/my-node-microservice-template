@@ -11,3 +11,4 @@ This is a little KOA microservice template I put together to get me easily start
 - Logging (Not completed, will use pino)
 - ESlint StandardJS (Because semicolons suck)
 - Koa Helmet (Powered By, HSTS)
+npm i

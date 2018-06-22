@@ -1,0 +1,12 @@
+version: '2'
+services:
+  my-node-microservice-template:
+    container_name: my-node-microservice-template
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/usr/src/app'
+    ports:
+      - '3000:3000'
+      - '5858:5858'
