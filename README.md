@@ -1,6 +1,6 @@
 ### What is this?
 
-This is a little KOA microservice template I put together to get me easily started with a nodejs project and only focus on what matters. Wiring code gets old really fast if you do this all the time
+This is a little KOA microservice template I put together to get me easily started with a nodejs project and only focus on what matters.
 
 ### How do i use it?
 - clone it
