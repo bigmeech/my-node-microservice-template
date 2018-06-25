@@ -14,6 +14,10 @@ module.exports = function devConfiguration () {
                 }
             },
             "koa-pino-logger": {},
+            "./health-checker":{
+                method: 'HEAD',
+                path: '/health'
+            },
             "./you-can-delete-me": {}
         }
     }
